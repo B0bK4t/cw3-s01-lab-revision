@@ -1,0 +1,196 @@
+/*------------------- SETTINGS -------------------------------*/
+
+/* font-family: 'Expletus Sans', cursive; */
+/* font-family: 'Rubik', sans-serif; */
+
+/*------------------- GENERIC -------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Liste à puces */
+li {
+    list-style: none;
+}
+
+/* Enlever marge h1 h2 */
+h1, h2 {
+    margin: 0;
+}
+
+/*------------------- ELEMENTS -------------------------------*/
+body {
+    font-family: Rubik, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+}
+
+/* Syle a */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Style a:hover */
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Style h1 */
+h1 {
+    font-family: Expletus Sans, cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 125px;
+}
+
+/* Style h2 */
+
+h2 {
+    font-family: Expletus Sans, cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 83px;
+    color: white;
+}
+
+/*------------------- COMPONENTS -------------------------------*/
+
+.conteneur {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header-principal {
+    background: #FF9800;
+    height: 61px;
+    margin: 0;
+}
+
+.nav-principale {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-principale ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-principale ul a {
+    margin-left: 20px;
+}
+
+/* Hero */
+
+.hero {
+    background: #FFC107;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    padding: 88px 0;
+}
+
+/* Information */
+
+.information .conteneur {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.carte {
+    width: 31%;
+    background: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+}
+
+.carte header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carte header h2 {
+    padding: 80px 0;
+}
+
+.carte:nth-child(1) header {
+    background: #E34E26;
+}
+
+.carte:nth-child(2) header {
+    background: #0270BB;
+}
+
+.carte:nth-child(3) header {
+    background: #F8DC3D;
+}
+
+.conteneur .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.content p {
+    padding: 20px;
+}
+
+.carte-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.carte-footer span {
+    color: #E64A19;
+}
+
+.bouton {
+    background: #FFC107;
+    border: 1px solid #E64A19;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bouton:hover {
+    background: #E64A19;
+}
+
+/* Footer */
+.footer-principal {
+    background: #E64A19;
+}
+
+.footer-principal .conteneur {
+    display: flex;
+    justify-content: left;
+}
+
+.footer-principal h3 {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+/*------------------- UTILITIES -------------------------------*/
